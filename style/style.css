@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #1F3F68;
+}
+
+.heading__top {
+  font-size: 64px;
+  color: #1F3F68;
+}
+
+.heading__contacts {
+  font-weight: 500;
+  font-size: 44px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 36px;
+  text-align: center;
+}
+
+.heading__mini {
+  font-size: 20px;
+  line-height: 30px;
+  color: #1F3F68;
+}
+
+.input__text {
+  border: 1px solid #356EAD;
+  box-sizing: border-box;
+  border-radius: 10px;
+  opacity: 0.4;
+}
+
+.button__submit {
+  background: #5A98D0;
+  box-shadow: 5px 20px 50px rgba(156, 188, 210, 0.2);
+  border-radius: 10px;
+  border-color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}/*# sourceMappingURL=style.css.map */
