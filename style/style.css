@@ -31,6 +31,16 @@ body .heading {
   color: #000000;
 }
 
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper__top {
+  flex-grow: 1;
+}
+
 .top {
   height: 768px;
   background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
