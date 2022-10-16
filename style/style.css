@@ -375,7 +375,7 @@ body .wrapper__top {
   opacity: 0.4;
   border: 1px solid #356EAD;
   border-radius: 10px;
-  width: 428px;
+  width: 100%;
   height: 50px;
   margin-top: 8px;
   margin-bottom: 32px;
@@ -393,7 +393,7 @@ body .wrapper__top {
   padding-left: 15px;
 }
 .main .form .input__textarea {
-  width: 428px;
+  width: 100%;
   height: 144px;
   opacity: 0.4;
   border: 1px solid #356EAD;
@@ -468,9 +468,32 @@ body .wrapper__top {
   .heading__mini {
     text-align: center;
   }
+  .contact {
+    height: 99px;
+  }
+  .contact .header__contact {
+    padding-top: 18px;
+  }
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .contacts__info .img__contacts {
+    padding-top: 64px;
+  }
+  .contacts__info {
+    margin-bottom: 64px;
+  }
+  .map {
+    padding-left: 0;
+    padding-right: 0;
+  }
   .footer {
     padding-top: 47px;
     margin-top: 109px;
+  }
+  .footer__contacts {
+    margin-top: 64px;
   }
   .footer .footer__conteiner {
     width: 75%;
@@ -531,6 +554,11 @@ body .wrapper__top {
     line-height: 28px;
     text-align: center;
   }
+  body .heading {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+  }
   .middle .card__box {
     padding-top: 32px;
   }
@@ -563,6 +591,40 @@ body .wrapper__top {
     line-height: 19px;
     top: 16px;
     left: 16px;
+  }
+  .contacts__header .heading__contacts {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .contacts__header .text__contacts {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .contacts__info {
+    padding-left: 21px;
+  }
+  .main .form {
+    margin-bottom: 32px;
+    padding: 25px;
+  }
+  .main .form .heading__form {
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 31px;
+  }
+  .main .form .text__form {
+    font-size: 14px;
+  }
+  .main .form .input__text {
+    margin-top: 0;
+    margin-bottom: 20px;
+    height: 45px;
+  }
+  .main .form .input__textarea {
+    margin-top: 0;
+  }
+  .main .form .button__submit {
+    padding: 15px 60px;
   }
   .footer {
     padding-top: 18px;
